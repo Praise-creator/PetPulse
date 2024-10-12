@@ -1,11 +1,12 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import '../styles/welcomepage.css';
 
 const WelcomePage = () => {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    navigate('/therapy'); // Navigate to therapy page
+    navigate('/therapy'); 
   };
 
   return (
