@@ -1,18 +1,67 @@
-.cat-therapist {
-    width: 600px;
-    height: auto;
-    animation: bounce 2s infinite;
-  }
-  
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-7px);
-    }
-    60% {
-      transform: translateY(-3px);
-    }
-  }
-  
+/* catanimation.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #eef3f7;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+  animation: slideIn 0.5s ease;
+}
+
+img {
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  animation: fadeIn 1s ease;
+}
+
+.typing {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.typing span {
+  width: 8px;
+  height: 8px;
+  margin: 0 3px;
+  border-radius: 50%;
+  background: #333;
+  animation: blink 1s infinite alternate;
+}
+
+.typing span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+
+.chat-container {
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.chat-message {
+  margin: 10px 0;
+  transition: all 0.3s ease;
+}
+
+.sidebar {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+
+

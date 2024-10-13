@@ -12,8 +12,8 @@ const WelcomePage = () => {
   return (
     <div>
       <h1>Welcome to PetPulse!</h1>
-      <p>Click below to start your therapy session with a cat!</p>
-      <button onClick={handleButtonClick}>Start Therapy</button>
+      <p>Click below to start a therapy session with a pet!</p>
+      <button onClick={handleButtonClick}>Start </button>
     </div>
   );
 };
